@@ -1,0 +1,23 @@
+ist of commands (9 August):
+
+- Navigating the terminal:
+	- pwd: prints the working directory
+	- ls: lists files within the directory
+		- ls -l: in-depth breakdown of available files within the directory
+		- ls -a: in-depth breakdown of hidden and available files within the directory
+	- cd: sets the directory
+		- cd: will return to root directory
+		- cd .. : will go up a level
+		- use tab to autocomplete names of directories
+	- mkdir: creates a new directory
+	- touch: creates a new file
+		- .file extension (e.g., .txt, .png)
+		- open: opens the file
+		- open . : opens the file in finder
+		- rm: removes the file
+	- mv: moves the file to new directory
+		- mv file_name.png .. : moves file up a level across the directories
+		- mv file_name.png new_name.png : renames the file
+	- cp: copies the file
+		- cp file_name.png my_directory : copies into the specified directory
+	- rm -r: recursive function 
