@@ -30,3 +30,12 @@ List of commands (9 August):
 	- git log: returns the history of commits with comments
 	- git revert (7 digit commit id): undoes the specific commit
 	- rm rf .git: closes all git channels
+
+- GitHub setup:
+	- git remote add origin git@github.com:migleambr/git_practice.git: links with a new repository - copy SSH link from GitHub 
+	- git push origin main: uploads the code to the main branch
+	- git pull: downloads the code
+	- git clone git@github.com:BrightNetworkTechAcademy/c6_coursenotes.git: clones the files within the repository
+
+
+
