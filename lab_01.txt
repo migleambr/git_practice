@@ -1,4 +1,4 @@
-ist of commands (9 August):
+List of commands (9 August):
 
 - Navigating the terminal:
 	- pwd: prints the working directory
@@ -21,3 +21,12 @@ ist of commands (9 August):
 	- cp: copies the file
 		- cp file_name.png my_directory : copies into the specified directory
 	- rm -r: recursive function 
+
+- Git version control:
+	- git init: initialise the git repository
+	- git status: returns modifications to file (red - not committed, green - committed)
+	- git add . : adds a new file to the repo
+	- git commit -m " ": commits a change alongside a message of modification
+	- git log: returns the history of commits with comments
+	- git revert (7 digit commit id): undoes the specific commit
+	- rm rf .git: closes all git channels
